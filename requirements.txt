@@ -1,0 +1,13 @@
+transformers>=4.30.0
+datasets>=2.10.0
+torch>=1.13.0
+tqdm
+trl>=0.5.0
+# Unsloth may not be published to PyPI; try pip install unsloth or install from its GitHub repo if unavailable
+unsloth
+sentencepiece>=0.1.98
+tokenizers>=0.13.3
+# Optional for large-scale training: accelerate, bitsandbytes
+accelerate
+bitsandbytes
+safetensors
